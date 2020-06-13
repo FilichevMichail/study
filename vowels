@@ -1,5 +1,6 @@
 vowels = ['a','e','i','o','u']
-word = input('enter something: ')
+#enter something
+word = 'here is an example'
 found = []
 for letter in word:
 	if letter in vowels:
