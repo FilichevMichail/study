@@ -1,0 +1,19 @@
+phrase = "don't panic!"
+plist = list(phrase)
+for a in range(4):
+	plist.pop()
+#don't pa удаляет последние четыре символа
+plist.pop(0)
+#on't pa удаляет 
+plist.remove("'")
+#ont pa удаляет on't pa
+#                 ^
+plist.insert(2,plist.pop(3))
+#on tpa меняет индекс 2 на индекс 3
+plist.extend([plist.pop(),plist.pop()])
+#on tap меняет последнии символы
+new_phrase =''.join(plist)
+print(plist)
+#ввыводит список
+print(new_phrase)
+#ввыводит строку
