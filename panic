@@ -4,7 +4,7 @@ for a in range(4):
 	plist.pop()
 #don't pa удаляет последние четыре символа
 plist.pop(0)
-#on't pa удаляет 
+#on't pa удаляет d
 plist.remove("'")
 #ont pa удаляет on't pa
 #                 ^
