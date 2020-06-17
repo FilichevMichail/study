@@ -1,4 +1,4 @@
-paranoid_android = "varvin, the paranoid android"
+paranoid_android = "marvin, the paranoid android"
 letter = list(paranoid_android)
 for char in letter[:6]:
     print('\t',char)
