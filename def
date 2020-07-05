@@ -1,0 +1,16 @@
+>>> def search4vowels():
+	vowels = set ('aeiou')
+	word = input("provide a word to search for vowels: ")
+	found = vowels.intersection(set(word))
+	for vowels in found :
+		print(vowels)
+
+		
+>>> search4vowels()
+provide a word to search for vowels: hitch-hiker
+e
+i
+>>> search4vowels()
+provide a word to search for vowels: galaxy
+a
+>>> 
