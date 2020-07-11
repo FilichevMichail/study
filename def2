@@ -1,0 +1,9 @@
+def search4vowels(word):
+	"""возращает гласные,найденые в указанном слове."""
+	vowels = set('aeiou')
+	return vowels.intersection(set(word))
+
+>>> search4vowels('hitch hiker')
+{'i', 'e'}
+>>> search4vowels('galaxy')
+{'a'}
