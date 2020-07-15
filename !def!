@@ -1,0 +1,10 @@
+>>> def double(arg):
+	print('befor: ',arg)
+	arg = arg * 2
+	print('after: ',arg)
+>>> num = 10
+>>> num
+10
+>>> double(num)
+befor:  10
+after:  20
