@@ -1,0 +1,5 @@
+vowels  ['a','e','i','o']
+word = "milliways"
+for lettetr in word:
+    if letter in vowels:
+        print(letter)
