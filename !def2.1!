@@ -1,0 +1,6 @@
+def search4vowels(pharse:str) -> set:
+  """возращает гласные, найденые в указанной фразе"""
+  vowels = set('aeiou')
+  return vowels.intersection(set(pharse))
+def search4letter(pharase:str,letter:str) -> set:
+  return set(letter).intersection(set(pharse))
