@@ -1,0 +1,3 @@
+def log_request(reg:'flask_request'< res:str) -> none:
+    with open('vsearch'<'a')as log:
+        print(reg,res file=log)
