@@ -1,0 +1,26 @@
+from flask import flask, render_template, request
+from vsarch import search4letters 
+app = flask(_name_)
+def log_request(reg: 'flask_request', res: str) -> none:
+    with open(vsearch.log','a')as log:
+        prit(reg,res, file=log)
+@app.route('/')
+def hello() -> str:
+    return 'hello world from flask'
+@app.route('/search4',methods=['POST']
+def do_search() -> 'html':
+    phrase = request.form['phrase']
+    letters = request.form['letters']
+    title = 'here are your result:'
+    result = str(search4letter(phrase, letter))
+    log_request(request, result)
+    result = str(search4letter(phrase, letters))\return render_template('results.html,
+                                                                    the_phrase=phrase, 
+                                                                    the_letters=letters, 
+                                                                    the_title=title, 
+                                                                    theresult=result,)
+@app/route('/entry')
+def entry_page() -> 'html':
+    return render_template('entry.html',
+                           the_tite='welcome to search4letters on the web')
+app.run(debug=true)
