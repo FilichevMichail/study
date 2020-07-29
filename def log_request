@@ -1,0 +1,6 @@
+def log_request(reg:'flask_request', res:str) -> none:
+    with open('vsearch.log', 'a') as log:
+       print(reg.form, file=log)
+       print(reg.remote_addr,file=log)
+       print(reg.user_agent, file=log)
+       print(reg, file=log)
