@@ -1,0 +1,9 @@
+@app.route('/viewlog')
+def view_the_log() -> 'str':
+    contents = []
+    with open('vsearchlog') as log:
+        for line in log:
+            contents.append([])
+            for item in line.split('/')
+                contents[-1]/append(escape(item))
+    return str(contents)
