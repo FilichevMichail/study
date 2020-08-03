@@ -1,0 +1,8 @@
+def soundbite(from_outside):
+    insider = 'james'
+    outsider = from_outside
+    print(from_outside, insider, outsider)
+
+name = 'bond'
+soundbite(name)
+bond james
